@@ -2,7 +2,7 @@ export type LinkItem = {
   /*
    * Texto del elemento
    */
-  text: string;
+  text?: string;
 
   /*
    * URL del elemento
@@ -12,5 +12,12 @@ export type LinkItem = {
   /*
    * Etiqueta del elemento
    */
-  label: string;
+  label?: string;
+};
+
+export type LinkItemIcon = LinkItem & {
+  /*
+   * Icono del elemento
+   */
+  icon: string;
 };
