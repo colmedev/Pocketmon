@@ -2,14 +2,14 @@ import { LinkItem } from "@contracts/index";
 
 const NavLinks: LinkItem[] = [
   {
-    text: "Home",
+    text: "Inicio",
     url: "#",
-    label: "Home",
+    label: "Inicio",
   },
   {
-    text: "About",
+    text: "Docs",
     url: "#",
-    label: "About",
+    label: "Docs",
   },
   {
     text: "Cards",
